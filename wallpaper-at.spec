@@ -10,6 +10,7 @@ Source:		%{name}-%{version}.tar.bz2
 License:	GNU Free Documentation License
 Group:		Graphics
 BuildArchitectures:	noarch
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 URL:		http://www.steve.org.uk/Software/wallpapers/
 
