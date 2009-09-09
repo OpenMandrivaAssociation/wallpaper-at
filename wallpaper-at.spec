@@ -1,6 +1,6 @@
 %define name wallpaper-at
 %define version 0.3
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary:	Wallpapers by Andreas Tille
 Name:		%{name}
