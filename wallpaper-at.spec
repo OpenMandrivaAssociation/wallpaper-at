@@ -147,3 +147,39 @@ rm -rf ${RPM_BUILD_ROOT}
 %{_datadir}/wallpapers/1600x900/sanssouci.jpg
 %{_datadir}/wallpapers/1600x900/brocken.jpg
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.3-7mdv2010.0
++ Revision: 434700
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.3-6mdv2009.0
++ Revision: 261919
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.3-5mdv2009.0
++ Revision: 255827
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.3-3mdv2008.1
++ Revision: 129263
+- kill re-definition of %%buildroot on Pixel's request
+- import wallpaper-at
+
+
+* Mon May 01 2006 Olivier Thauvin <nanardon@mandriva.org> 0.3-3mdk
+- Rebuild
+
+* Tue Mar 02 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.3-2mdk
+- Own dir
+
+* Thu May 29 2003 Levi Ramsey <levi@cygnetnet.net> 0.3-1mdk
+- Initial contrib
+- Based on debian package(s) wallpapers-at... by Andreas Tille and
+	Steve Kemp
+- Debian-specific stuff and hooks to Kemp's wallpaper-controller
+	removed from tarball
