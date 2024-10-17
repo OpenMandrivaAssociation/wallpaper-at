@@ -12,7 +12,7 @@ Group:		Graphics
 BuildArchitectures:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
-URL:		http://www.steve.org.uk/Software/wallpapers/
+URL:		https://www.steve.org.uk/Software/wallpapers/
 
 %description
 This package contains some hopefully nice images to use as a background
